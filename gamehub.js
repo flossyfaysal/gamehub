@@ -1,0 +1,1 @@
+console.log("Gamehub project Initialized");
