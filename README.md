@@ -1,5 +1,3 @@
-# gamehub
-React &amp; Typescript based application | Based on rawg.io game website.
 # Gamehub 
 React and Typescript based application | Based on rawg.io game website.
 
