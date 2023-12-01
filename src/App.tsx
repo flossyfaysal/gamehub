@@ -17,6 +17,7 @@ function App() {
       <GameGrid />
     </GridItem>
  </Grid>;
+
 }
 
 export default App
