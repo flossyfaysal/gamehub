@@ -1,8 +1,9 @@
 import useGeneres from "../hooks/useGenres"
 
+
 function GenreList() {
 
-   const {data} = useGeneres();
+   const {data} = useGeneres()
 
   return (
     <div>
