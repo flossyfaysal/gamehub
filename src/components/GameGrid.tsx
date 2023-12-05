@@ -21,7 +21,7 @@ const GameGrid = ({selectedGenre, selectedPlatform}: Props) => {
         <SimpleGrid columns={3} spacing={5}>
             { isLoading && skeletons.map( skeleton => 
                 <GameCardContainer key={skeleton}>
-                    <GameCardSkeleton key={skeleton}/>
+                    <GameCardSkeleton />
                 </GameCardContainer>
             )}
             {  data.map( (game) => (

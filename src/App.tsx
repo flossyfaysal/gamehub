@@ -11,7 +11,6 @@ function App() {
   const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null);
   const [selectedPlatform, setSelectedPlatform] = useState<Platform | null>(null);
   
-  
   return <Grid
     templateAreas={{
       base: `"nav" "main"`,
