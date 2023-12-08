@@ -24,7 +24,10 @@ function GenreList({selectedGenre, onSelectGenre}: Props) {
                   <Button 
                     fontWeight={genre.id === selectedGenre?.id ? 'bold' : 'normal'}
                     variant="link" 
-                    onClick={() => onSelectGenre(genre)}>
+                    onClick={() => onSelectGenre(genre)}
+                    whiteSpace={'pre-wrap'}
+                    textAlign={'left'}
+                    >
                       {genre.name}
                     </Button>
                 </HStack>

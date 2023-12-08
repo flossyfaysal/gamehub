@@ -34,6 +34,7 @@ function App() {
     </GridItem>
     <Show above="lg">
       <GridItem area="aside" paddingX='5'>
+        <Heading paddingBottom={5} fontSize={28}>Genre</Heading>
         <GenreList selectedGenre={gameQuery.genre} onSelectGenre={(genre) => setGameQuery({...gameQuery, genre})} />
       </GridItem>
     </Show>
