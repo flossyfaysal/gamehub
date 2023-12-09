@@ -3,6 +3,7 @@ import {Game} from "../hooks/useGames"
 import PlatformIconList from "./PlatformIconList"
 import CriticScore from "./CriticScore"
 import croppedImageUrl from "../services/cropped-image"
+import GameRating from "./GameRating"
 
 interface Props{
     game: Game
@@ -18,8 +19,10 @@ function GameCard({game}: Props) {
                     platforms={ game.parent_platforms.map( p => p.platform )}
                     />
                 <CriticScore score={game.metacritic}/>
+
             </HStack>
             <Heading>{game.name}/</Heading>
+            <GameRating rating={game.rating_top}/>
         </CardBody>
     </Card>
   )
